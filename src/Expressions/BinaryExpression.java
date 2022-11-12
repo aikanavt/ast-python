@@ -2,8 +2,9 @@ package Expressions;
 
 public class BinaryExpression extends Expression{
     public Expression lhs;
-    public Expression rhs;
     public String operator;
+    public Expression rhs;
+    
 
     public BinaryExpression(Expression lhs, Expression rhs, String operator){
         this.lhs = lhs;
