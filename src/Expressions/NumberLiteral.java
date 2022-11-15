@@ -1,4 +1,4 @@
-package Expressions;
+package expressions;
 
 public class NumberLiteral extends Expression{
     public int value;

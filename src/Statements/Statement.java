@@ -1,4 +1,4 @@
-package Statements;
+package statements;
 public interface Statement {
     
 }

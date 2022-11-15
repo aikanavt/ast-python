@@ -1,4 +1,4 @@
-package Expressions;
+package expressions;
 
 public class StringLiteral extends Expression{
     public String value;

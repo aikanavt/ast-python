@@ -1,4 +1,4 @@
-package Expressions;
+package expressions;
 
 public class BinaryExpression extends Expression{
     public Expression lhs;

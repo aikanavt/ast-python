@@ -1,4 +1,4 @@
-package Expressions;
+package expressions;
 
 public class BooleanLiteral extends Expression{
     public boolean value;

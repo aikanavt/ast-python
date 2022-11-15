@@ -1,4 +1,4 @@
-package Expressions;
+package expressions;
 
 public class UnaryExpression extends Expression {
     public Expression operand;

@@ -1,4 +1,4 @@
-package Expressions;
+package expressions;
 
 public class IfExpression extends Expression{
     public BooleanExpression test;
