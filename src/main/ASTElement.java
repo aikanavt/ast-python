@@ -1,4 +1,5 @@
-abstract class ASTElement {
+package main;
+public class ASTElement {
     public int line;
     public int column;
     public String fileLocation;
