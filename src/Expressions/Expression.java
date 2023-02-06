@@ -1,12 +1,16 @@
 package expressions;
 
 import main.ASTElement;
+import main.Type;
 
-public class Expression extends ASTElement{ //extends ASTElement{
-    public String type;  //need?
+public class Expression extends ASTElement{ 
+    public Type type;  
 
     public Expression(int line, int column, String fileLocation){
         super(line, column, fileLocation);
-        //constructor
+    }
+
+    public Type getType(){
+        return type;
     }
 }
